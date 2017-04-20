@@ -122,22 +122,7 @@
       content: "";
       display: block;
       padding-bottom: 100%; }
-    .boxes .boxes--single:nth-child(1) {
-      background-image: url("../images/images.png"); }
-    .boxes .boxes--single:nth-child(2) {
-      background-image: url("../images/stock-vector-digital-logo-hi-tech-logo-technology-logo-color-circle-logo-business-company-logo-391020550.jpg"); }
-    .boxes .boxes--single:nth-child(3) {
-      background-image: url("../images/103884773-GettyImages-526169374.530x298.jpg"); }
-    .boxes .boxes--single:nth-child(4) {
-      background-image: url("../images/images.jpeg"); }
-    .boxes .boxes--single:nth-child(5) {
-      background-image: url("../images/technicians-working-on-assembly-line-in-hi-tech-electronics-manufacturing-CXP2YH.jpg"); }
-    .boxes .boxes--single:nth-child(6) {
-      background-image: url("../images/stock-vector-tech-service-logo-support-settings-concept-phone-and-computer-recovery-shop-options-and-service-482335654.jpg"); }
-    .boxes .boxes--single:nth-child(7) {
-      background-image: url("../images/MW-EW882_tech_20160929135415_ZH.jpg"); }
-    .boxes .boxes--single:nth-child(8) {
-      background-image: url("../images/state-machine.png"); }
+   
   .boxes .boxes--inner-color {
     position: absolute;
     width: 100%;
@@ -353,4 +338,48 @@
 	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 	line-height: 30px;
+}
+
+
+.pingpai{
+	width: 100%;
+	height: 500px;
+	margin: 0;
+}
+#backtop {
+  width: 100px;	
+  height: 100px;
+  position: fixed;
+  bottom: 16px;
+  right: 0;
+  color: #1abb9c;
+  z-index: 9999;
+  font-size: 1.5em;
+  cursor: pointer;
+  display: none;
+}
+  #backtop:hover {
+    opacity: 0.6; 
+    }
+
+#footer{
+	color: #8C8C8C;
+}
+#footer a{
+	text-decoration: none;
+}
+
+.logopng div div{
+	height: 100px;
+	margin-bottom: 30px;
+}
+.threegreen div div{
+	height: 350px;
+	background: rgb(96,201,146);
+	margin-bottom: 15px;
+	color: white;
+	
+}
+.threegreen div div:hover{
+	
 }
